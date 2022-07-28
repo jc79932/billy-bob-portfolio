@@ -1,0 +1,136 @@
+/* Complementary colors: https://color.adobe.com/create/color-wheel */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: #011226;
+}
+
+.nav_container{
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    height: 36px;
+    background-color: #264A73;
+    align-items: center;
+    justify-content: right;
+  
+
+}
+
+.nav_content li{
+    display: inline-block;
+    
+}
+
+.nav_content a{
+    text-decoration: none;
+    color: white;
+    padding-right: 1.5rem;
+    margin: auto;
+}
+
+.hero{
+    height: 100vh;
+    width: 100vw;
+    position: relative;   
+}
+
+.hero > h1, h2{
+    padding: 1.5vh 0px;
+}
+
+.hero > img{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+
+.hero h2{
+    position: absolute;
+    color: white;
+    top: 45%;
+    left: 35%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 5vh;
+}
+.hero h1{
+    position: absolute;
+    color: white;
+    top: 55%;
+    left: 35%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-top: #0112263f solid 5px;
+    font-size: 4.5vh;
+}
+
+.sections{
+    border-top: #264A73 solid 4px;
+    
+}
+
+.sections > *{
+    color: white;
+}
+
+.AboutMe, .PreviousWork{
+    display: flex;
+    
+}
+
+.subtitleLeft{
+    /* flex: 0 1 23%; */
+    flex: 20%;
+    text-align: center;
+    background-color: #264A73;
+    border-right:  #264A73 solid 5px;
+}
+
+.subtitleLeft h3{
+    justify-content: center;
+    vertical-align: auto;
+    
+}
+
+.subtitleRight{
+    flex: 20%;
+    text-align: center;
+    background-color: #264A73;
+    border-left:  #264A73 solid 5px;
+    
+}
+
+.contentLeft{
+    flex: 80%;
+    background-color: #011226;
+}
+
+.contentRight{
+    /* flex: 3 0 76%; */
+    flex: 80%;
+    background-color: #011226;
+    border-bottom: #264A73 solid 5px;
+}
+
+.contentRight a{
+    text-decoration: none;
+    color:#264A73;
+    
+}
+
+.AboutMe > *{
+    padding: 20px;
+    font-size: 1.5rem;
+}
+ .PreviousWork > *{
+    padding: 20px;
+    font-size: 1.5rem;
+ }
+
